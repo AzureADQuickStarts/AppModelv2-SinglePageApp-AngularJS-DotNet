@@ -4,25 +4,21 @@ angular.module('todoApp', ['ngRoute','AdalAngular'])
 
     $routeProvider.when("/Home", {
         controller: "homeCtrl",
-        templateUrl: "/App/Views/Home.html",
+        templateUrl: "/static/views/Home.html",
     }).when("/TodoList", {
         controller: "todoListCtrl",
-        templateUrl: "/App/Views/TodoList.html",
+        templateUrl: "/static/views/TodoList.html",
         requireADLogin: true,
     }).when("/UserData", {
         controller: "userDataCtrl",
-        templateUrl: "/App/Views/UserData.html",
+        templateUrl: "/static/views/UserData.html",
     }).otherwise({ redirectTo: "/Home" });
 
-    adalProvider.init(
-        {
-            instance: 'https://login.microsoftonline.com/', 
-            tenant: 'common',
-            clientId: '67227e4e-f48b-4f6b-9721-d4cc283d32e9',
-            scopes: [],
-            //cacheLocation: 'localStorage', // enable this for IE, as sessionStorage does not work for localhost.
-        },
-        $httpProvider
-        );
+    adalProvider.init({
+        instance: 'https://login.microsoftonline.com/', 
+        tenant: 'common',
+        clientId: '67227e4e-f48b-4f6b-9721-d4cc283d32e9',
+        //cacheLocation: 'localStorage', // enable this for IE, as sessionStorage does not work for localhost.
+    }, $httpProvider);
    
 }]);

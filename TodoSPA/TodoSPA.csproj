@@ -107,16 +107,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App\Scripts\adal-angular.js" />
-    <Content Include="App\Scripts\adal.js" />
-    <Content Include="App\Scripts\homeCtrl.js" />
-    <Content Include="App\Scripts\indexCtrl.js" />
-    <Content Include="App\Scripts\todoListCtrl.js" />
-    <Content Include="App\Scripts\todoListSvc.js" />
-    <Content Include="App\Scripts\userDataCtrl.js" />
-    <Content Include="App\Views\Home.html" />
-    <Content Include="App\Views\TodoList.html" />
-    <Content Include="App\Views\UserData.html" />
+    <Content Include="app\lib\adal-angular-experimental\changelog.txt" />
+    <Content Include="app\lib\adal-angular-experimental\dist\adal-angular.min.js" />
+    <Content Include="app\lib\adal-angular-experimental\dist\adal.min.js" />
+    <Content Include="app\lib\adal-angular-experimental\Gruntfile.js" />
+    <Content Include="app\lib\adal-angular-experimental\karma.conf.js" />
+    <Content Include="app\lib\adal-angular-experimental\lib\adal-angular.js" />
+    <Content Include="app\lib\adal-angular-experimental\lib\adal.js" />
+    <Content Include="app\lib\adal-angular-experimental\LICENSE.txt" />
+    <Content Include="app\lib\angular-route\angular-route.js" />
+    <Content Include="app\lib\angular-route\angular-route.min.js" />
+    <Content Include="app\lib\angular-route\index.js" />
+    <Content Include="app\lib\angular\angular-csp.css" />
+    <Content Include="app\lib\angular\angular.js" />
+    <Content Include="app\lib\angular\angular.min.js" />
+    <Content Include="app\lib\angular\index.js" />
+    <Content Include="app\scripts\app.js" />
+    <Content Include="app\scripts\homeCtrl.js" />
+    <Content Include="app\scripts\indexCtrl.js" />
+    <Content Include="app\scripts\todoListCtrl.js" />
+    <Content Include="app\scripts\todoListSvc.js" />
+    <Content Include="app\scripts\userDataCtrl.js" />
+    <Content Include="app\views\Home.html" />
+    <Content Include="app\views\TodoList.html" />
+    <Content Include="app\views\UserData.html" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
@@ -124,7 +138,7 @@
   <ItemGroup>
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\TodoListController.cs" />
+    <Compile Include="Controllers\TasksController.cs" />
     <Compile Include="DAL\TodoListServiceContext.cs" />
     <Compile Include="DAL\TodoListServiceInitializer.cs" />
     <Compile Include="Global.asax.cs">
@@ -136,6 +150,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="app\lib\adal-angular-experimental\.bower.json" />
+    <Content Include="app\lib\adal-angular-experimental\bower.json" />
+    <Content Include="app\lib\adal-angular-experimental\contributing.md" />
+    <Content Include="app\lib\adal-angular-experimental\package.json" />
+    <Content Include="app\lib\adal-angular-experimental\README.md" />
+    <Content Include="app\lib\angular-route\.bower.json" />
+    <Content Include="app\lib\angular-route\angular-route.min.js.map" />
+    <Content Include="app\lib\angular-route\bower.json" />
+    <Content Include="app\lib\angular-route\package.json" />
+    <Content Include="app\lib\angular-route\README.md" />
+    <Content Include="app\lib\angular\.bower.json" />
+    <Content Include="app\lib\angular\angular.min.js.gzip" />
+    <Content Include="app\lib\angular\angular.min.js.map" />
+    <Content Include="app\lib\angular\bower.json" />
+    <Content Include="app\lib\angular\package.json" />
+    <Content Include="app\lib\angular\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
