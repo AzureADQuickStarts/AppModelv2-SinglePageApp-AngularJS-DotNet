@@ -36,7 +36,7 @@ namespace TodoSPA.Controllers
             }
             if (todo.Owner != owner)
             {
-                throw new HttpResponseException(HttpStatusCode.Unauthorized);
+                throw new HttpResponseException(HttpStatusCode.Forbidden);
             }
                          
             return todo;
