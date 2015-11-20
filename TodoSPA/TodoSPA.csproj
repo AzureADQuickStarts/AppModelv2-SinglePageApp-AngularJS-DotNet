@@ -110,19 +110,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\lib\adal-angular-experimental\.bower.json" />
-    <Content Include="app\lib\adal-angular-experimental\bower.json" />
-    <Content Include="app\lib\adal-angular-experimental\changelog.txt" />
-    <Content Include="app\lib\adal-angular-experimental\contributing.md" />
-    <Content Include="app\lib\adal-angular-experimental\dist\adal-angular.min.js" />
-    <Content Include="app\lib\adal-angular-experimental\dist\adal.min.js" />
-    <Content Include="app\lib\adal-angular-experimental\Gruntfile.js" />
-    <Content Include="app\lib\adal-angular-experimental\karma.conf.js" />
-    <Content Include="app\lib\adal-angular-experimental\lib\adal-angular.js" />
-    <Content Include="app\lib\adal-angular-experimental\lib\adal.js" />
-    <Content Include="app\lib\adal-angular-experimental\LICENSE.txt" />
-    <Content Include="app\lib\adal-angular-experimental\package.json" />
-    <Content Include="app\lib\adal-angular-experimental\README.md" />
     <Content Include="app\lib\angular-route\.bower.json" />
     <Content Include="app\lib\angular-route\angular-route.js" />
     <Content Include="app\lib\angular-route\angular-route.min.js" />
