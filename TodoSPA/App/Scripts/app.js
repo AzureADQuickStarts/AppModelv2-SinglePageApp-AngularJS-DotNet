@@ -25,6 +25,9 @@ angular.module('todoApp', ['ngRoute','AdalAngular'])
         // The 'common' endpoint is used for multi-tenant applications
         tenant: 'common',
         
+        // Scopes that the app will use to display information about the user
+        scopes: 'email profile',
+        
         // Your application id from the registration portal
         clientId: '<Your-application-id>',
         
